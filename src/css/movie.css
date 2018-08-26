@@ -1,0 +1,19 @@
+body {
+    background: #FFC300;
+    font-family: 'Contrail One', cursive;
+}
+
+.logo {
+    width: 150px;
+    height: 120px;
+}
+
+.centrar {
+    margin-right:auto;
+    display:inline-block;
+    text-align:center;  
+}
+
+.cajaText {
+    width:60%;
+}

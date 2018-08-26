@@ -1,0 +1,26 @@
+body {
+  font-family: 'Contrail One', cursive;
+  background-image: white;
+  background-repeat: no-repeat;
+  /* no repite la imagen*/
+  position: static;
+}
+
+.loginform {
+  margin-top: 10%;
+  /*margen superior*/
+  margin-left: auto;
+  /*margen izquierdo*/
+  margin-right: auto;
+  /*margen derecho*/
+  width: 60%;
+  /*ancho*/
+}
+
+.centrar {
+    margin-right:auto;
+    display:inline-block;
+    text-align:center;  
+}
+
+
