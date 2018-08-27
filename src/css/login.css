@@ -1,9 +1,6 @@
 body {
   font-family: 'Contrail One', cursive;
-  background-image: white;
-  background-repeat: no-repeat;
-  /* no repite la imagen*/
-  position: static;
+  background: #FFC300;
 }
 
 .loginform {
@@ -13,14 +10,33 @@ body {
   /*margen izquierdo*/
   margin-right: auto;
   /*margen derecho*/
-  width: 60%;
+  width: 60%;  
   /*ancho*/
 }
 
 .centrar {
-    margin-right:auto;
-    display:inline-block;
-    text-align:center;  
+  margin-right:auto;
+  display:inline-block;
+   text-align:center; 
 }
+
+.btnForm {
+  width: 49%;
+  font-size: 20px;
+  margin-top: 10%;
+}
+
+.logo {
+  width: 200px;
+  height: 140px;
+  
+}
+
+.inputText {
+  width: 99%;
+}
+
+
+
 
 

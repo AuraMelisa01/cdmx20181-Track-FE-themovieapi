@@ -76,14 +76,17 @@ const card = (data) => {
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
-            <div class="modal-body">
-              <img class="rounded float-left" src=${data.Search[i].Poster} alt="Card image cap">
-              <div class="input-group mb-7">
-                <p class="card-text"> Tipo: ${data.Search[i].Type} <p>                   
+            <div class="modal-body centrar">
+              <img class="rounded float-left centrar" src=${data.Search[i].Poster} alt="Card image cap">
+              <div class="input-group mb-7">  
+              <p class="card-text"> <p>                
               </div>
-              <div class="center">
-                  <p class="card-text"> Año: ${data.Search[i].Year} <p>
-            </div>
+              <div class="">
+                <p class="card-text"> Tipo: ${data.Search[i].Type} <p>
+              </div>
+              <div class="">
+                <p class="card-text"> Año: ${data.Search[i].Year} <p>
+              </div>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
@@ -95,3 +98,12 @@ const card = (data) => {
   </div> `
   }
 }
+
+const btnLogout = document.getElementById('btnLogout');
+
+// Función para salir
+btnLogout.addEventListener('click', e => {
+  firebase.auth().signOut();
+  window.location.assign('../index.html');
+});
+
