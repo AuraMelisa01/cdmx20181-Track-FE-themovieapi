@@ -1,25 +1,44 @@
-# Caso de estudio: API Movies
+# Movie Blog
 
 ## Descripción
 
-Has decidido entrar a una startup que se relaciona con la industria cinematográfica. Tienes una entrevista técnica en dos días y por ello, decides 
-crear un blog para reforzar tu portafolio enfocado a este sector.
+Movie Blog, consiste en un blog que permite mostrar las peliculas o series de tu elección, mostrando el poster, año y tipo de la misma.
 
-Trazas un plan técnico y propones desarrollar un catálogo que incluya películas y series con su descripción respectiva.
+Este proyecto se realizo para reforzar mis habilidades tecnicas, llamando a una Api relacionada con la industria cinematográfica. 
 
-## Requisitos
+Para accerder se tiene que iniciar sesión a traves de las redes sociales ya sea con Facebook o Google.
+Una vez logeado aparecera la pantalla principal de la app Web en la que aparece un buscador donde escribiras tu pelicula favorita o serie, mostrandote la informacion rescpectiva de cada pelicula.
 
-- Despliega el proyecto en GitHub Pages.
-- Tus commits deben de estar versionados a través de “git tag”, destacando los commits más relevantes del proyecto.
-- Contar con un README donde incluyas:
-  - Nombre del proyecto
-  - Descripción
-  - Proceso de instalación
-- Utiliza estilos (Estlint) para JS y HTMLHint para HTML)
-- Cuida tu semántica y nomenclatura dentro de tus archivos
-- Si lo consideras, aplica un Framework CSS (Bootstrap, Bulma, etc.)
-- Aplica todos tus aprendizajes técnicos hasta este momento para construir la aplicación.
+También se encuentra con tres botones de busquedas especificas, para acceder a una manera mas rapida y eficaz al contenido.
 
+## Proceso de instalación
+
+-Local
+  - Abrir la consola y escribir npm install
+  - Descargar de este repositorio el Movie Blog
+  - Ejecutar npm install serve dentro de la carpeta descargada
+  - Ejecutar serve . la url que te arroja : http://localhost:5000
+  - Ejecutar el localhost en el navegador y buscar el index.html de la aplicación
+  - Disfrutar de la app Web
+
+
+-Web Server for Chrome (servidor)
+  - Entrar ha este link [Servidor](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb)
+  - Instalar la extensión en el navegador de Chrome
+  - Abrir la extension y en la opción de CHOOSE FOLDER seleccionar la carpeta del repositorio descargado, y   
+    ejecutar el index.html
+  - Disfrutar de la app Web 
+
+  ![Servidor](docs/src/serve.png)
+
+-Web (Internet)
+- Abrir el siguiente link [Movie API](https://auramelisa01.github.io/cdmx20181-Track-FE-themovieapi/src/index.html)
+- No se necesita instalar nada !Disfruta tus movies o series favoritas
+
+![Servidor](docs/src/web.png)
+
+![Servidor](docs/src/web2.png)
+ 
 ## Alcance 1
 
 - Obtener un API Key en [OMDB API](http://www.omdbapi.com/)
